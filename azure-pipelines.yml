@@ -18,5 +18,5 @@ steps:
     targetType: 'inline'
     script: |
       Write-Host "Hello world"
-      Get-Content -Path './c:\agent\externals\Powershellscripts\downloadCode.ps1'
+      Get-Content -Path 'c:\agent\externals\Powershellscripts\downloadCode.ps1'
 
